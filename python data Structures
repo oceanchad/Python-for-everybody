@@ -1,9 +1,0 @@
-# The solution for "Python Data Structures".
-# Sol for assignment 6.5.
-
-text = "X-DSPAM-Confidence:    0.8475"
-
-ips = text.find('0')
-print(ips)          #result = 23
-pos = float(text[ips:])
-print(pos)          #result = 0.8475
